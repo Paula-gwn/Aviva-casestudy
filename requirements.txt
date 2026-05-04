@@ -1,0 +1,10 @@
+pandas #CSV handling
+geopandas #road shapefiles
+networkx #graph building
+numpy #math operations
+scipy #KDTree
+shapely #geometry handling
+pyproj #coordinate systems (used by geopandas)
+fiona #reading shapefiles
+rtree #spatial indexing (improves performance)
+geopy #better distance calculation (optional but recommended)
