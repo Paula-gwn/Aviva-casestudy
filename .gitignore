@@ -181,6 +181,35 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+#raw data
+data/raw/roads/
+data/raw/*.shp
+data/raw/*.dbf
+data/raw/*.shx
+data/raw/*.prj
+
+# Data and Outputs
+data/processed/
+data/outputs/
+*.csv
+*.geojson
+*.pickle
+*.json
+*.npy
+*.npz
+
+# Ignore the data and any large binaries
+data/
+*.pickle
+*.npy
+*.csv
+
+# Large Graph Files (if saved separately)
+*.gpickle
+*.graphml
+*.pkl
+
+
 # PyCharm
 #   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
